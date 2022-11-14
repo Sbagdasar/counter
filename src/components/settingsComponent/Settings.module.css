@@ -1,0 +1,46 @@
+.settingsMain{
+    min-height: 300px;
+    width: 90%;
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+    border: 3px solid lightblue;
+    border-radius: 8px;
+    grid-gap: 10px;
+    padding: 10px;
+    background-color: #282c34;
+}
+
+.inputContainer{
+    background-color: transparent;
+    border: 3px solid lightblue;
+    border-radius: 8px;
+}
+
+.btnSettingStyle > button{
+    border: 2px solid lightblue;
+    border-radius: 8px;
+    padding: 0 25px;
+}
+.btnSettingStyle{
+    border: 3px solid lightblue;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inputsStyle{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    justify-content: center;
+    margin: 20px;
+}
+.inputsStyle > label{
+    font-size: 42px;
+    color: lightblue;
+}
+.errInpValue{
+    background-color: rgba(255 ,100,100, 0.9);
+    border-color:red;
+    outline: none;
+}

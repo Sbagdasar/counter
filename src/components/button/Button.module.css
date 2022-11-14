@@ -1,0 +1,7 @@
+.btnStyle{
+    background-color: lightblue;
+    border: 1px solid lightblue;
+    border-radius: 8px;
+    font-size: 42px;
+    padding: 0 25px;
+}
